@@ -1,0 +1,24 @@
+" ウィンドウの縦幅
+set lines=55
+" ウィンドウの横幅
+set columns=180
+" カラースキーム
+colorscheme molokai
+" ダーク系のカラースキームを使う
+set background=dark
+
+
+set guifont=Monaco\ for\ Powerline:h14
+
+"ツールバーなし
+set guioptions-=T
+"メニューバーなし
+set guioptions-=m
+"右スクロールバーなし
+set guioptions-=r
+set guioptions-=R
+"左スクロールバーなし
+set guioptions-=l
+set guioptions-=L
+"下スクロールバーなし
+set guioptions-=b
