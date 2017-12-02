@@ -173,7 +173,8 @@ filetype plugin indent on
 let g:syntastic_python_checkers = ["flake8"]
 
 "Color sheme
-syntax on
+"syntx onにするとjedi-vimがmacで落ちる
+"syntax on
 colorscheme molokai
 let g:molokai_original = 1
 set t_Co=256
